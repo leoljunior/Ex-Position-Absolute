@@ -1,0 +1,41 @@
+.element {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.elementFirst {
+    background-color: lawngreen;
+    
+}
+
+.elementSecond {
+    background-color: lightseagreen;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.elementThird {
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); /* transform: translate(-50%, -50%);*/
+    
+}
+
+.elementInternal {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: seagreen;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
